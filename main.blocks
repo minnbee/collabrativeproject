@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="eBleKE8[;9vDi70Q.TMf" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="dYBZPDq}5g.4]V2g=/Mk"><value name="color"><shadow type="colorindexpicker" id="nBjy-1HP}?#p7+TbeWdk"><field name="index">9</field></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="){O-cz2KPXMgC_xg#!nh">mySprite</variable><variable type="KIND_SpriteKind" id="D8@%VpD{7U*c/Ep{9Q=t">Player</variable><variable type="KIND_SpriteKind" id="o9gY3Ca13zc/!%ZFXL!H">Projectile</variable><variable type="KIND_SpriteKind" id="%b.J:CFzY%gy5fQPpn,~">Food</variable><variable type="KIND_SpriteKind" id=":u)8W(c`R/mz~@I5#,eU">Enemy</variable></variables><block type="pxt-on-start" id="eBleKE8[;9vDi70Q.TMf" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="dYBZPDq}5g.4]V2g=/Mk"><value name="color"><shadow type="colorindexpicker" id="nBjy-1HP}?#p7+TbeWdk"><field name="index">9</field></shadow></value><next><block type="variables_set" id="Xc9-3M42;an*-LBG%NN+"><field name="VAR" id="){O-cz2KPXMgC_xg#!nh">mySprite</field><value name="VALUE"><shadow type="math_number" id="=3@E8tj|kqIH30c2IzY#"><field name="NUM">0</field></shadow><block type="spritescreate" id="5zubIx|LZJ*SJX$?i%?Z"><value name="img"><shadow type="screen_image_picker" id="sxZk*0DhY{-m+PGjtbAa"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . 2 . . . . . . . 
+. . . . . . . 2 2 . . . . . . . 
+. . . . . . . 2 2 2 . . . . . . 
+. . . . . . 2 2 2 2 . . . . . . 
+. . . . . 2 2 f 2 2 2 . . . . . 
+. . . . . 2 2 2 2 f 2 2 . . . . 
+. . . . 2 2 2 2 2 2 2 2 . . . . 
+. . . 2 2 2 2 2 2 2 2 2 2 . . . 
+. . . 2 2 2 2 2 2 2 2 2 2 2 . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"sxZk*0DhY{-m+PGjtbAa"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="7=|W.Jmr@c$GpmxJk44/"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
