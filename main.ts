@@ -1,5 +1,9 @@
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    mySprite.setVelocity(0, -90)
+})
+let mySprite: Sprite = null
 scene.setBackgroundColor(9)
-let mySprite = sprites.create(img`
+mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . 2 . . . . . . . 
@@ -17,3 +21,9 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+mySprite.setStayInScreen(true)
+mySprite.setPosition(80, 60)
+mySprite.ay = 200
+game.onUpdateInterval(500, function () {
+	
+})
